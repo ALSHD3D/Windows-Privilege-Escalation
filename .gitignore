@@ -1,0 +1,18 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local lab artifacts
+*.log
+*.tmp
+*.bak
+*.pcap
+loot/
+screenshots/
+
+# Secrets
+.env
+*.key
+*.pem
