@@ -16,7 +16,6 @@ The main focus is:
 * Shell/payload references
 * Lab and authorized penetration-testing workflows
 
----
 
 ## 1. Learn Windows Privilege Escalation
 
@@ -46,7 +45,6 @@ The main focus is:
 * **HackTricks - Windows Privilege Escalation Checklist**
   https://hacktricks.wiki/en/windows-hardening/checklist-windows-privilege-escalation.html
 
----
 
 ## 2. Exploit Research
 
@@ -82,7 +80,6 @@ Use version-specific searches to identify publicly documented vulnerabilities af
 * **SecWiki - Windows Kernel Exploits**
   https://github.com/SecWiki/windows-kernel-exploits
 
----
 
 ## 3. Automated Windows Enumeration
 
@@ -130,7 +127,6 @@ Use version-specific searches to identify publicly documented vulnerabilities af
 
 > Automated tools provide enumeration leads. Validate interesting findings manually before considering them confirmed vulnerabilities.
 
----
 
 ## 4. Reverse Shells & Payloads
 
@@ -166,7 +162,6 @@ Use version-specific searches to identify publicly documented vulnerabilities af
 * **RevShells**
   https://www.revshells.com/
 
----
 
 ## 5. Quick Reference
 
@@ -233,7 +228,6 @@ Get-ChildItem Env:
 Get-Acl "C:\Path"
 ```
 
----
 
 ## Resource Status
 
