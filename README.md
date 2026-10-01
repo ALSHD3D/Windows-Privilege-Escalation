@@ -4,33 +4,45 @@ Practical resources, guides, checklists, exploit research, enumeration tools, an
 
 > Use these resources only on systems you own or are explicitly authorized to test.
 
+This repository is intended to be a **practical reference**, not a theoretical Windows security textbook.
+
+The main focus is:
+
+* Enumeration
+* Manual validation
+* Exploit research
+* Privilege-escalation techniques
+* Practical tooling
+* Shell/payload references
+* Lab and authorized penetration-testing workflows
+
 ---
 
 ## 1. Learn Windows Privilege Escalation
 
 ### Comprehensive Guides
 
-* **FuzzySecurity — Windows Privilege Escalation Guide**
+* **FuzzySecurity - Windows Privilege Escalation Guide**
   https://www.fuzzysecurity.com/tutorials/16.html
 
-* **PayloadsAllTheThings — Windows Privilege Escalation**
+* **PayloadsAllTheThings - Windows Privilege Escalation**
   https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation.md
 
-* **Absolomb — Windows Privilege Escalation Guide**
+* **Absolomb - Windows Privilege Escalation Guide**
   https://www.absolomb.com/2018-01-26-Windows-Privilege-Escalation-Guide
 
-* **Sushant 747 — Total OSCP Guide: Windows Privilege Escalation**
+* **Sushant 747 - Total OSCP Guide: Windows Privilege Escalation**
   https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_windows.html
 
 ### Checklists & Methodologies
 
-* **HackTricks — Windows Privilege Escalation Checklist**
+* **HackTricks - Windows Privilege Escalation Checklist**
   https://hacktricks.wiki/en/windows-hardening/checklist-windows-privilege-escalation.html
 
-* **HackTricks — Windows Local Privilege Escalation**
+* **HackTricks - Windows Local Privilege Escalation**
   https://hacktricks.wiki/en/windows-hardening/windows-local-privilege-escalation/index.html
 
-* **InternalAllTheThings — Windows Privilege Escalation**
+* **InternalAllTheThings - Windows Privilege Escalation**
   https://swisskyrepo.github.io/InternalAllTheThings/redteam/escalation/windows-privilege-escalation
 
 ---
@@ -66,7 +78,7 @@ Use version-specific searches to identify publicly documented vulnerabilities af
 
 ### Windows Kernel Exploits
 
-* **SecWiki — Windows Kernel Exploits**
+* **SecWiki - Windows Kernel Exploits**
   https://github.com/SecWiki/windows-kernel-exploits
 
 ---
@@ -81,7 +93,7 @@ Use version-specific searches to identify publicly documented vulnerabilities af
 * **Seatbelt**
   https://github.com/GhostPack/Seatbelt
 
-* **Watson** — Deprecated
+* **Watson** - Deprecated
   https://github.com/rasta-mouse/Watson
 
 * **SharpUp**
@@ -89,10 +101,10 @@ Use version-specific searches to identify publicly documented vulnerabilities af
 
 ### PowerShell
 
-* **PowerUp / PowerSploit — Privesc** — Legacy / Deprecated
+* **PowerUp / PowerSploit - Privesc** - Legacy / Deprecated
   https://github.com/PowerShellMafia/PowerSploit/tree/master/Privesc
 
-* **Sherlock** — Deprecated
+* **Sherlock** - Deprecated
   https://github.com/rasta-mouse/Sherlock
 
 * **JAWS**
@@ -103,7 +115,7 @@ Use version-specific searches to identify publicly documented vulnerabilities af
 
 ### Other Enumeration & Exploit-Suggestion Tools
 
-* **Windows Exploit Suggester** — Deprecated
+* **Windows Exploit Suggester** - Deprecated
   https://github.com/AonCyberLabs/Windows-Exploit-Suggester
 
 * **Metasploit Local Exploit Suggester**
@@ -112,7 +124,7 @@ Use version-specific searches to identify publicly documented vulnerabilities af
 * **Windows Privilege Escalation Checker**
   https://github.com/pentestmonkey/windows-privesc-check
 
-* **UACME — UAC Bypass Research / Testing**
+* **UACME - UAC Bypass Research / Testing**
   https://github.com/hfiref0x/UACME
 
 > Automated tools provide enumeration leads. Validate interesting findings manually before considering them confirmed vulnerabilities.
@@ -123,24 +135,24 @@ Use version-specific searches to identify publicly documented vulnerabilities af
 
 ### Reverse Shell References
 
-* **InternalAllTheThings — Reverse Shell Cheat Sheet**
+* **InternalAllTheThings - Reverse Shell Cheat Sheet**
   https://swisskyrepo.github.io/InternalAllTheThings/cheatsheets/shell-reverse-cheatsheet
 
-* **PentestMonkey — Reverse Shell Cheat Sheet**
+* **PentestMonkey - Reverse Shell Cheat Sheet**
   https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
 
-* **Kali Linux — Web Shells**
+* **Kali Linux - Web Shells**
 
 ```text
 /usr/share/webshells/
 ```
 
-* **PHP Reverse Shell — PentestMonkey**
+* **PHP Reverse Shell - PentestMonkey**
   https://github.com/pentestmonkey/php-reverse-shell
 
 ### PowerShell
 
-* **HackTricks — Basic PowerShell for Pentesters**
+* **HackTricks - Basic PowerShell for Pentesters**
   https://hacktricks.wiki/en/windows-hardening/basic-powershell-for-pentesters/index.html
 
 ### Meterpreter / Msfvenom
@@ -242,18 +254,3 @@ Some older tools in this list are retained because they remain useful for **hist
 | PayloadsAllTheThings      | Methodology      | Reference        |
 | InternalAllTheThings      | Methodology      | Reference        |
 
----
-
-## Notes
-
-This repository is intended to be a **practical reference**, not a theoretical Windows security textbook.
-
-The main focus is:
-
-* Enumeration
-* Manual validation
-* Exploit research
-* Privilege-escalation techniques
-* Practical tooling
-* Shell/payload references
-* Lab and authorized penetration-testing workflows
