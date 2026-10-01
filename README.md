@@ -34,16 +34,17 @@ The main focus is:
 * **Sushant 747 - Total OSCP Guide: Windows Privilege Escalation**
   https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_windows.html
 
-### Checklists & Methodologies
-
-* **HackTricks - Windows Privilege Escalation Checklist**
-  https://hacktricks.wiki/en/windows-hardening/checklist-windows-privilege-escalation.html
-
-* **HackTricks - Windows Local Privilege Escalation**
+  * **HackTricks - Windows Local Privilege Escalation**
   https://hacktricks.wiki/en/windows-hardening/windows-local-privilege-escalation/index.html
 
 * **InternalAllTheThings - Windows Privilege Escalation**
   https://swisskyrepo.github.io/InternalAllTheThings/redteam/escalation/windows-privilege-escalation
+  
+
+### Checklists & Methodologies
+
+* **HackTricks - Windows Privilege Escalation Checklist**
+  https://hacktricks.wiki/en/windows-hardening/checklist-windows-privilege-escalation.html
 
 ---
 
